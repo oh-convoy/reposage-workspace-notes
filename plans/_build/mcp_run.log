@@ -1,0 +1,17 @@
+nohup: ignoring input
+  [OK ]    M03    13.4s     1824B  /workspace/plans/mcp/M03-cloud-infrastructure.md
+  [OK ]    M05    17.5s     2067B  /workspace/plans/mcp/M05-observability-monitoring.md
+  [OK ]    M01    21.3s     2116B  /workspace/plans/mcp/M01-code-version-control.md
+  [OK ]    M04    21.4s     2121B  /workspace/plans/mcp/M04-data-databases.md
+  [OK ]    M02    25.5s     2650B  /workspace/plans/mcp/M02-dev-productivity-cicd.md
+  [OK ]    M06    16.9s     2181B  /workspace/plans/mcp/M06-collaboration-pm.md
+  [OK ]    M08    12.8s     1779B  /workspace/plans/mcp/M08-social-community.md
+  [OK ]    M07    16.8s     2067B  /workspace/plans/mcp/M07-marketing-ads-analytics.md
+  [OK ]    M10    20.8s     2448B  /workspace/plans/mcp/M10-design-media-creative.md
+  [OK ]    M12    17.0s     2186B  /workspace/plans/mcp/M12-security-identity-compliance.md
+  [OK ]    M11    21.0s     2440B  /workspace/plans/mcp/M11-ai-llm-vector.md
+  [OK ]    M09    36.9s     2082B  /workspace/plans/mcp/M09-content-cms-seo.md
+  [OK ]    M13    24.9s     2193B  /workspace/plans/mcp/M13-finance-hr-legal.md
+  [OK ]    M14    16.7s     2076B  /workspace/plans/mcp/M14-customer-support-crm.md
+
+TOTAL 14/14 ok in 63.0s (concurrency 5)

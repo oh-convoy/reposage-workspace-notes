@@ -1,0 +1,1513 @@
+{
+  "schema": "openhands.sandbox-inventory.v1",
+  "generated_at": "2026-11-18T02:06:27+00:00",
+  "source": {
+    "base_url": "https://app.all-hands.dev",
+    "endpoints": [
+      "/api/v1/sandboxes/search",
+      "/api/v1/app-conversations/search"
+    ]
+  },
+  "summary": {
+    "sandbox_count": 21,
+    "conversation_count": 20,
+    "orphan_conversation_count": 0,
+    "sandbox_status_counts": {
+      "PAUSED": 20,
+      "RUNNING": 1
+    },
+    "sandbox_spec_counts": {
+      "ghcr.io/openhands/agent-server:1.62.0-python": 20,
+      "ghcr.io/openhands/agent-server:1.60.1-python": 1
+    }
+  },
+  "sandboxes": [
+    {
+      "id": "5dfgnXQ9FWcLktAX4e324c",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "1e620a1dae364407aa6fe70a742edfb7",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:47.527531Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "535e9f8546a9497b8ad56727496ae64c"
+      ]
+    },
+    {
+      "id": "2bWUtC5n7UfICqTgh6WLck",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "364e54717fe54b02a487f4ae3bab0c9b",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:46.573631Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "33a9e6f76aff493fad55e4746906a5d6"
+      ]
+    },
+    {
+      "id": "5cHpzK1O75y7RIjxws4m64",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "1eecbe3d95e04bcdafe808e0298d5e45",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:39.765950Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "9653d7c2da7b45919a9bba239df11f94"
+      ]
+    },
+    {
+      "id": "tOpoBm0zyiWc5T7D4USlN",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "24b2ace25c0d4b508afbd75f677d2f89",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:36.499188Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "a01ccc1e40934a27a7ec7872e07473b7"
+      ]
+    },
+    {
+      "id": "1TmtCbDLXQ2vPYPpI9SMjT",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "d2dcb83d13de4774b977c33a461db02d",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:32.985370Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "564b0dbbac4f4ff8b6d24cd4a657d888"
+      ]
+    },
+    {
+      "id": "42cJzUChbrwfNJHAFiC4rl",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "64a9b642dff442d8bdfb8b34e0d6b7f2",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:30.083019Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "a33a20f03f48457da42c9d23bdec57ac"
+      ]
+    },
+    {
+      "id": "65zLZxWSuRAqa3v6Fk0NOS",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "bfa9b602de4e4d9b81cd1c1fd484d88d",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:27.103585Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "21aadd4974614329bd62819fe7359aa6"
+      ]
+    },
+    {
+      "id": "7dYWEn3XaIlburZKISQQ9Y",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "dada6436a445405f8975a7fe97f5f922",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:24.677613Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "ed5fc7b2e149462ba311be8f9e534fe3"
+      ]
+    },
+    {
+      "id": "2Z7RzGDgQyskgXu4dCChK6",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "f2466a27caba4e37b01d648aeb44c6ee",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:21.511833Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "ba99206e98ff4d5d8c64ce9d434e6be5"
+      ]
+    },
+    {
+      "id": "5v8r2A8a5OIOJ9GyupwdLj",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "358cca69c639487abf30dfe1e9decf93",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:58:18.463592Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 0,
+      "conversation_ids": []
+    },
+    {
+      "id": "1eZ1WbojkggGXF6yjxNxu7",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "96a07464d5304a7cb89a540472e726c8",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:57:58.753649Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "6949874400584a24ba8473431efa82a4"
+      ]
+    },
+    {
+      "id": "75NvTcrix2Lpezo8jLeUe4",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "ee5e62ca12544771abbf24af56c64973",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:57:51.240492Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "3ca61786487a4c54ae3a6616f134bd05"
+      ]
+    },
+    {
+      "id": "5n6YKciZHJUJBL0e7Guiph",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "8973be2831e04eb096bdf9dccdab1033",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:58.788366Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "ee3f75560c2540bbb840d8166ec94d83"
+      ]
+    },
+    {
+      "id": "32p8dtKMVbSiW3t3h14VwB",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "bf32aff25e514f2e9b99387c67479ba1",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:50.516778Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "96aa4c1dd1504c50b9be90274e904459"
+      ]
+    },
+    {
+      "id": "7XE7C4FP64gVZs4X6FrZ3c",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "76501e4423a3433fa17cf9bf6f513dfb",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:47.505965Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "7a39b6ac6bec4f828100eba603943c95"
+      ]
+    },
+    {
+      "id": "1Q0SGa49Ztm6o5pkVU0KUL",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "004ded34bd6d42c1b12983ef038a4f43",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:45.490381Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "33fb7504d5884764967b33dfc28dd6ae"
+      ]
+    },
+    {
+      "id": "2H2tmpJTMSdG0yTn5t8TPI",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "1e415cc4a0e0473f9d3d32f5f0282e8c",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:41.608015Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "0fc59b06370241feb17d785bb8a7a158"
+      ]
+    },
+    {
+      "id": "2vVV0gpOhi9RHrlHNyiEKd",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "fc1e8b6c6d09494b9940ce8514f797f2",
+      "exposed_urls": null,
+      "created_at": "2026-11-17T23:55:35.528253Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "12bbbea913424ae3875477678b99c9bd"
+      ]
+    },
+    {
+      "id": "24nWgqBoSzpC4aFl7puofY",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "RUNNING",
+      "session_api_key": "71bfaf3d5f944b0c9510b780fd877dfa",
+      "exposed_urls": [
+        {
+          "name": "AGENT_SERVER",
+          "url": "https://pjkquuzuyxpfxivg.prod-runtime.all-hands.dev",
+          "port": 60000
+        },
+        {
+          "name": "VSCODE",
+          "url": "https://vscode-pjkquuzuyxpfxivg.prod-runtime.all-hands.dev/?tkn=71bfaf3d5f944b0c9510b780fd877dfa&folder=%2Fworkspace%2Fproject",
+          "port": 60001
+        },
+        {
+          "name": "WORKER_1",
+          "url": "https://work-1-pjkquuzuyxpfxivg.prod-runtime.all-hands.dev/",
+          "port": 12000
+        },
+        {
+          "name": "WORKER_2",
+          "url": "https://work-2-pjkquuzuyxpfxivg.prod-runtime.all-hands.dev/",
+          "port": 12001
+        }
+      ],
+      "created_at": "2026-11-17T23:21:29.432167Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "9014dc4475ef47cfa4e385396658e534"
+      ]
+    },
+    {
+      "id": "18dVaqhNt92LKnu57HZhVN",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": "APP_CONVERSATION",
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.62.0-python",
+      "status": "PAUSED",
+      "session_api_key": "d59c531a846c468382fe8388964b9200",
+      "exposed_urls": null,
+      "created_at": "2026-11-13T19:10:12.411964Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "aded06187d0d4515a93ada8156f1e4e3"
+      ]
+    },
+    {
+      "id": "7dD6bXvmlYawLGXUGgxisY",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "credential_org_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "started_by": null,
+      "sandbox_spec_id": "ghcr.io/openhands/agent-server:1.60.1-python",
+      "status": "PAUSED",
+      "session_api_key": "80bd0e4b648b453bb5b38ea95bf08b29",
+      "exposed_urls": null,
+      "created_at": "2026-11-11T07:45:41.912688Z",
+      "last_termination": null,
+      "status_detail": null,
+      "conversation_count": 1,
+      "conversation_ids": [
+        "8f4b42d745624471a39da5dd2011b692"
+      ]
+    }
+  ],
+  "orphan_conversations": [],
+  "conversations": [
+    {
+      "id": "564b0dbbac4f4ff8b6d24cd4a657d888",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "1TmtCbDLXQ2vPYPpI9SMjT",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:40.222612Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0012014464,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 386,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21964,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:20.619180Z",
+      "updated_at": "2026-11-17T23:59:28.991982Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/564b0dbbac4f4ff8b6d24cd4a657d888",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "21aadd4974614329bd62819fe7359aa6",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "65zLZxWSuRAqa3v6Fk0NOS",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:34.667245Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0012923064,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21576,
+          "completion_tokens": 603,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 0,
+          "per_turn_token": 22179,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:17.511407Z",
+      "updated_at": "2026-11-17T23:59:23.886676Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/21aadd4974614329bd62819fe7359aa6",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "9653d7c2da7b45919a9bba239df11f94",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "5cHpzK1O75y7RIjxws4m64",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:46.950532Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0012228664,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 437,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 22015,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:17.144325Z",
+      "updated_at": "2026-11-17T23:59:24.546973Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/9653d7c2da7b45919a9bba239df11f94",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "535e9f8546a9497b8ad56727496ae64c",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "5dfgnXQ9FWcLktAX4e324c",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:53.849679Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011678464,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 306,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21884,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:15.848350Z",
+      "updated_at": "2026-11-17T23:59:20.669965Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/535e9f8546a9497b8ad56727496ae64c",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "a01ccc1e40934a27a7ec7872e07473b7",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "tOpoBm0zyiWc5T7D4USlN",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:43.862713Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011544064,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 274,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 0,
+          "per_turn_token": 21852,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:12.421121Z",
+      "updated_at": "2026-11-17T23:59:18.110229Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/a01ccc1e40934a27a7ec7872e07473b7",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "33a9e6f76aff493fad55e4746906a5d6",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "2bWUtC5n7UfICqTgh6WLck",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:53.537511Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011944464,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21576,
+          "completion_tokens": 370,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21946,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:09.371186Z",
+      "updated_at": "2026-11-17T23:59:13.521588Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/33a9e6f76aff493fad55e4746906a5d6",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "a33a20f03f48457da42c9d23bdec57ac",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "42cJzUChbrwfNJHAFiC4rl",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:37.547490Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0012174064,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 424,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 22002,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:59:08.463980Z",
+      "updated_at": "2026-11-17T23:59:13.002676Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/a33a20f03f48457da42c9d23bdec57ac",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "ba99206e98ff4d5d8c64ce9d434e6be5",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "2Z7RzGDgQyskgXu4dCChK6",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:28.917568Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0012022864,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 388,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21966,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:58:52.833945Z",
+      "updated_at": "2026-11-17T23:59:00.384793Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/ba99206e98ff4d5d8c64ce9d434e6be5",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "ed5fc7b2e149462ba311be8f9e534fe3",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "7dYWEn3XaIlburZKISQQ9Y",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:31.906366Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011388664,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21578,
+          "completion_tokens": 237,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21815,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:58:52.217280Z",
+      "updated_at": "2026-11-17T23:58:58.231133Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/ed5fc7b2e149462ba311be8f9e534fe3",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "6949874400584a24ba8473431efa82a4",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "1eZ1WbojkggGXF6yjxNxu7",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:58:06.440129Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0029886751999999997,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 73868,
+          "completion_tokens": 1200,
+          "cache_read_tokens": 57856,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 31052,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:58:22.230375Z",
+      "updated_at": "2026-11-17T23:58:49.864439Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/6949874400584a24ba8473431efa82a4",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "3ca61786487a4c54ae3a6616f134bd05",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "75NvTcrix2Lpezo8jLeUe4",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:57:59.004280Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011810064,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21576,
+          "completion_tokens": 338,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21914,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:58:14.465809Z",
+      "updated_at": "2026-11-17T23:58:18.576355Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/3ca61786487a4c54ae3a6616f134bd05",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "ee3f75560c2540bbb840d8166ec94d83",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "5n6YKciZHJUJBL0e7Guiph",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:56:06.451723Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0025166624,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 110793,
+          "completion_tokens": 2129,
+          "cache_read_tokens": 102272,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 23529,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:23.456300Z",
+      "updated_at": "2026-11-17T23:56:41.736135Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/ee3f75560c2540bbb840d8166ec94d83",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "96aa4c1dd1504c50b9be90274e904459",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "32p8dtKMVbSiW3t3h14VwB",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:55:58.263399Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0011206664,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21331,
+          "completion_tokens": 276,
+          "cache_read_tokens": 14592,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 21607,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:16.667473Z",
+      "updated_at": "2026-11-17T23:56:20.495994Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/96aa4c1dd1504c50b9be90274e904459",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "7a39b6ac6bec4f828100eba603943c95",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "7XE7C4FP64gVZs4X6FrZ3c",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:55:55.208527Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0017690848,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 64687,
+          "completion_tokens": 1191,
+          "cache_read_tokens": 57344,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 22206,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:16.521245Z",
+      "updated_at": "2026-11-17T23:57:00.998612Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/7a39b6ac6bec4f828100eba603943c95",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "33fb7504d5884764967b33dfc28dd6ae",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "1Q0SGa49Ztm6o5pkVU0KUL",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:55:53.265650Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0022609048,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 88479,
+          "completion_tokens": 1674,
+          "cache_read_tokens": 79744,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 23568,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:13.777125Z",
+      "updated_at": "2026-11-17T23:57:02.951489Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/33fb7504d5884764967b33dfc28dd6ae",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "0fc59b06370241feb17d785bb8a7a158",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "2H2tmpJTMSdG0yTn5t8TPI",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:55:49.336025Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.001886892,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 87046,
+          "completion_tokens": 1137,
+          "cache_read_tokens": 79360,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 22669,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:10.171593Z",
+      "updated_at": "2026-11-17T23:56:52.726943Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/0fc59b06370241feb17d785bb8a7a158",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "12bbbea913424ae3875477678b99c9bd",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "2vVV0gpOhi9RHrlHNyiEKd",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "hi",
+      "title_generation": {
+        "status": "fallback",
+        "title": "hi",
+        "deadline_at": "2026-11-17T23:55:43.222027Z"
+      },
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.0025056192000000002,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 132260,
+          "completion_tokens": 1900,
+          "cache_read_tokens": 123776,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 23267,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:56:01.766890Z",
+      "updated_at": "2026-11-17T23:56:26.380254Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/12bbbea913424ae3875477678b99c9bd",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "9014dc4475ef47cfa4e385396658e534",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "24nWgqBoSzpC4aFl7puofY",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "sandbox-01-RepoSage",
+      "title_generation": null,
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.4699973488000002,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 44465367,
+          "completion_tokens": 363049,
+          "cache_read_tokens": 43502464,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 145545,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-17T23:21:52.359731Z",
+      "updated_at": "2026-11-18T02:06:27.304305Z",
+      "sandbox_status": "RUNNING",
+      "execution_status": "running",
+      "conversation_url": "https://pjkquuzuyxpfxivg.prod-runtime.all-hands.dev/api/conversations/9014dc4475ef47cfa4e385396658e534",
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/9014dc4475ef47cfa4e385396658e534",
+      "session_api_key": "71bfaf3d5f944b0c9510b780fd877dfa",
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "aded06187d0d4515a93ada8156f1e4e3",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "18dVaqhNt92LKnu57HZhVN",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "Mission: Reverse Engineering Repo Analysis",
+      "title_generation": null,
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.23684548160000007,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 21385479,
+          "completion_tokens": 122103,
+          "cache_read_tokens": 20680448,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 88124,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-13T19:10:42.877415Z",
+      "updated_at": "2026-11-17T22:43:20.305751Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/aded06187d0d4515a93ada8156f1e4e3",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    },
+    {
+      "id": "8f4b42d745624471a39da5dd2011b692",
+      "created_by_user_id": "ca5b37c9-a8de-493d-b02c-e44b8707bcc7",
+      "sandbox_id": "7dD6bXvmlYawLGXUGgxisY",
+      "selected_repository": null,
+      "selected_branch": null,
+      "git_provider": null,
+      "git_provider_id": null,
+      "title": "Mission: GitHub branding-practice-and-engagements",
+      "title_generation": null,
+      "trigger": "gui",
+      "pr_number": [],
+      "pull_requests": [],
+      "additional_repositories": [],
+      "llm_model": "openhands/deepseek-v4.1-flash",
+      "agent_kind": "openhands",
+      "metrics": {
+        "model_name": "default",
+        "accumulated_cost": 0.029783740000000003,
+        "max_budget_per_task": null,
+        "accumulated_token_usage": {
+          "model": "",
+          "prompt_tokens": 80192154,
+          "completion_tokens": 751477,
+          "cache_read_tokens": 78495616,
+          "cache_write_tokens": 0,
+          "reasoning_tokens": 0,
+          "context_window": 1000000,
+          "per_turn_token": 90655,
+          "response_id": ""
+        }
+      },
+      "parent_conversation_id": null,
+      "sub_conversation_ids": [],
+      "public": null,
+      "tags": {
+        "archiveworkspacepath": "/workspace/project",
+        "clientsource": "agentcanvas"
+      },
+      "created_at": "2026-11-11T07:46:08.853579Z",
+      "updated_at": "2026-11-13T12:55:10.131163Z",
+      "sandbox_status": "PAUSED",
+      "execution_status": null,
+      "conversation_url": null,
+      "conversation_ui_url": "https://app.all-hands.dev/canvas/conversations/8f4b42d745624471a39da5dd2011b692",
+      "session_api_key": null,
+      "acp_available_models": [],
+      "acp_supports_runtime_model_switch": false,
+      "acp_server": null,
+      "repositories": [],
+      "launched_agent_profile": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "units": 2,
+  "ok": 2,
+  "failed": 0,
+  "wall_clock_seconds": 27.9,
+  "concurrency": 2,
+  "model": null,
+  "kind": "persona",
+  "total_attempts": 2,
+  "retries": 0,
+  "unit_seconds_sum": 49.7,
+  "unit_seconds_avg": 24.9,
+  "unit_seconds_min": 21.8,
+  "unit_seconds_max": 27.9,
+  "bytes_total": 10982,
+  "bytes_avg": 5491,
+  "tokens": {
+    "prompt_tokens": 238704,
+    "completion_tokens": 4601,
+    "cache_read_tokens": 217344,
+    "reasoning_tokens": 1607
+  },
+  "throughput_docs_per_min": 4.3,
+  "speedup_vs_serial": 1.78,
+  "per_unit": [
+    {
+      "id": "S01",
+      "ok": true,
+      "attempts": 1,
+      "wall_s": 27.9,
+      "bytes": 5931,
+      "tokens": {
+        "prompt_tokens": 135563,
+        "completion_tokens": 2903,
+        "cache_read_tokens": 120320,
+        "reasoning_tokens": 1310
+      },
+      "models": [
+        "openhands/deepseek-v4.1-flash"
+      ],
+      "issues": []
+    },
+    {
+      "id": "S02",
+      "ok": true,
+      "attempts": 1,
+      "wall_s": 21.8,
+      "bytes": 5051,
+      "tokens": {
+        "prompt_tokens": 103141,
+        "completion_tokens": 1698,
+        "cache_read_tokens": 97024,
+        "reasoning_tokens": 297
+      },
+      "models": [
+        "openhands/deepseek-v4.1-flash"
+      ],
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "d87f645b1be040d6b65e0044b6400191",
+    "title": "ep-aihubmix_claude_opus_5",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "e1ce7e69966b442fadb3c8e4ff0c1c66",
+    "title": "personas-S02",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "ad7523f415554490ba63f2e4c03d1aae",
+    "title": "ab-azure/gpt-6.2-astra",
+    "before_model": "azure/gpt-6.2-astra",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "18efd3466b5242c2b6004f48b42c24a1",
+    "title": "ep-aihubmix_kimi_k3",
+    "before_model": "aihubmix/kimi-k3",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "a7f94102d23d4a55ae11655f567d6c0b",
+    "title": "ep-zai_glm_5_2",
+    "before_model": "zai/glm-5.2",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "360f31b5f4534a38a72da0f78e928cff",
+    "title": "Conversation 360f31b5f4534a38a72da0f78e928cff",
+    "before_model": "aihubmix/gpt-5.5-pro",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "f3207353ccbc476ca8b2626f442766a6",
+    "title": "ep-aihubmix_gpt_5_4_high",
+    "before_model": "aihubmix/gpt-5.4-high",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "83e76ad0adb7443f90b1695300dfddb1",
+    "title": "ep-zai_glm_5_3",
+    "before_model": "zai/glm-5.3",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "cc3b7d2c3eb040d6b8aeff45d6aa590e",
+    "title": "ep-vertex_ai_claude_opus_5",
+    "before_model": "vertex_ai/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "beaf097aaa8e4d0982fd436671a9e724",
+    "title": "cand-openai/gpt-5.6",
+    "before_model": "openai/gpt-5.6",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "822d564425974872bcf1590062160ca9",
+    "title": "mp-vertex_ai_claude-opus-5",
+    "before_model": "vertex_ai/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "b87f43742e2d42a382423ebc950d0a77",
+    "title": "mp-azure_gpt-6.2-sol",
+    "before_model": "azure/gpt-6.2-sol",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "997b93060d304b4c99d7048da288a640",
+    "title": "llm-test",
+    "before_model": "gpt-5.6",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "2c765157352642fcac1f01140f34b680",
+    "title": "best-test",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "258662546ef84091b543a7002ec1093b",
+    "title": "cand-gpt-5.5",
+    "before_model": "gpt-5.5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "b0a6816af6fb4df688b91f2bb3e08519",
+    "title": "mcp-agent-proof",
+    "before_model": "azure/gpt-6.2-astra",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "21a1ed0822054b218515bafa590785ba",
+    "title": "mp-aihubmix_claude-opus-5",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "58a6839eef094596957b211562a1b90b",
+    "title": "mp-azure_gpt-6.2-astra",
+    "before_model": "azure/gpt-6.2-astra",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "cea2028d187f4312b3bd9db88440092f",
+    "title": "mp-azure_gpt-5.6-sol",
+    "before_model": "azure/gpt-5.6-sol",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "fe04b692586d4fa0afce7634c5384b89",
+    "title": "mp-zai_glm-5.3",
+    "before_model": "zai/glm-5.3",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "cb0a799a302d4a5bb379490b2e2ea6ef",
+    "title": "mp-azure_gpt-6.1-sol",
+    "before_model": "azure/gpt-6.1-sol",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "6cb924a0ed5649e79cbf5643b95c7f35",
+    "title": "personas-S01",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "126579228da74ca29ac1789a72135c88",
+    "title": "inherit-test",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "89c6e436ad4541c088e3e1ec5b5c3d79",
+    "title": "personas-S02",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "72bb5e5aa05e4ca6b7ed4bfcf3725905",
+    "title": "personas-S01",
+    "before_model": "aihubmix/claude-opus-5",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "ace944d068764f15b54f120716ff2c1d",
+    "title": "cand-openhands/gpt-5.6",
+    "before_model": "openhands/gpt-5.6",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "1902b59b4c0b4d638946707e9bce3a21",
+    "title": "cand-gpt-5.6",
+    "before_model": "gpt-5.6",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "db908428442242f3aa82764fb6b0eea3",
+    "title": "mp-aihubmix_gpt-5.5-pro",
+    "before_model": "aihubmix/gpt-5.5-pro",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  },
+  {
+    "sandbox": "24nWgqBoSzpC4aFl7puofY",
+    "id": "d9aacdd70ea541b2aaee575ce1925eba",
+    "title": "cand-azure/gpt-5.6",
+    "before_model": "azure/gpt-5.6",
+    "before_base_url": null,
+    "status": "error",
+    "switch_status": 200,
+    "switch_ok": true
+  }
+]

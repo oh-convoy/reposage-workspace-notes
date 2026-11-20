@@ -1,0 +1,15 @@
+[2026-11-18T00:47:19Z] target directory: /workspace/github/organization/oh-convoy
+[2026-11-18T00:47:19Z] listed page 1: 11 repos (total 11)
+[2026-11-18T00:47:19Z] repositories to process: 11
+[2026-11-18T00:47:20Z] [1/11] Convoy-OpenHands-Orchestration (0.2 MB): cloned
+[2026-11-18T00:47:21Z] [2/11] all-hands-dev (0.1 MB): cloned
+[2026-11-18T00:47:23Z] [3/11] convoy-docs-site (0.1 MB): cloned
+[2026-11-18T00:47:24Z] [4/11] convoy-quality-audit (0.0 MB): cloned
+[2026-11-18T00:47:26Z] [5/11] hellofleet-experiment (0.0 MB): cloned
+[2026-11-18T00:47:27Z] [6/11] oc-convoy-docs-poc (0.0 MB): cloned
+[2026-11-18T00:47:29Z] [7/11] oc-convoy-docs-v0 (0.2 MB): cloned
+[2026-11-18T00:47:31Z] [8/11] oc-convoy-docs-v1 (0.4 MB): cloned
+[2026-11-18T00:47:32Z] [9/11] oc-convoy-v0 (4.4 MB): cloned
+[2026-11-18T00:47:34Z] [10/11] oc-convoy-v1 (0.0 MB): cloned
+[2026-11-18T00:47:35Z] [11/11] openhands (0.4 MB): cloned
+[2026-11-18T00:47:35Z] summary: {"cloned": 11, "fetched": 0, "clone-failed": 0, "fetch-failed": 0}

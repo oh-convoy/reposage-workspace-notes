@@ -1,0 +1,220 @@
+# Corporation — MCP Server Catalogue
+
+The Model Context Protocol (MCP) servers the corporation needs to stand up its
+
+squads (see `../squads/corporation-squads.md`) and run its agentic workflows.
+
+Each category is expanded in its own `M##-*.md` document with a numbered table.
+
+This file is the consolidated master view.
+
+**Deployment model:** shared, external tool servers are fronted by one MCP
+
+gateway sandbox (see `../../platform-all-hands/design/08-mcp-gateway-plan.md`);
+
+data-resident servers run locally in each sandbox. See `M15-gateway-aggregation.md`.
+
+## Categories
+
+| # | Category | Document | Servers |
+|---|---|---|---|
+| 1 | Code & Version Control | [`M01-code-version-control.md`](M01-code-version-control.md) | 10 |
+| 2 | Developer Productivity & CI/CD | [`M02-dev-productivity-cicd.md`](M02-dev-productivity-cicd.md) | 16 |
+| 3 | Cloud & Infrastructure | [`M03-cloud-infrastructure.md`](M03-cloud-infrastructure.md) | 10 |
+| 4 | Data & Databases | [`M04-data-databases.md`](M04-data-databases.md) | 11 |
+| 5 | Observability & Monitoring | [`M05-observability-monitoring.md`](M05-observability-monitoring.md) | 12 |
+| 6 | Collaboration & Project Management | [`M06-collaboration-pm.md`](M06-collaboration-pm.md) | 12 |
+| 7 | Marketing, Ads & Analytics | [`M07-marketing-ads-analytics.md`](M07-marketing-ads-analytics.md) | 12 |
+| 8 | Social Media & Community | [`M08-social-community.md`](M08-social-community.md) | 10 |
+| 9 | Content, CMS & SEO | [`M09-content-cms-seo.md`](M09-content-cms-seo.md) | 12 |
+| 10 | Design, Media & Creative | [`M10-design-media-creative.md`](M10-design-media-creative.md) | 14 |
+| 11 | AI, LLM & Vector | [`M11-ai-llm-vector.md`](M11-ai-llm-vector.md) | 12 |
+| 12 | Security, Identity & Compliance | [`M12-security-identity-compliance.md`](M12-security-identity-compliance.md) | 12 |
+| 13 | Finance, HR & Legal Ops | [`M13-finance-hr-legal.md`](M13-finance-hr-legal.md) | 13 |
+| 14 | Customer Support & CRM | [`M14-customer-support-crm.md`](M14-customer-support-crm.md) | 12 |
+| 15 | Gateway & Aggregation | [`M15-gateway-aggregation.md`](M15-gateway-aggregation.md) | 10 |
+| | **Total** | | **178** |
+
+## Consolidated master table
+
+| # | Category | MCP Server | Purpose | Used by squads | Auth | Transport | Criticality |
+|---|---|---|---|---|---|---|---|
+| 1 | Code & Version Control | GitHub MCP Server | Source hosting, pull requests, issues, code review | S01, S02, S03, S04, S06, S07, S08, S10 | OAuth2 | HTTP/SSE | Critical |
+| 2 | Code & Version Control | GitLab MCP Server | Repository hosting, merge requests, CI pipelines | S01, S04, S06, S07, S13 | Token | HTTP | High |
+| 3 | Code & Version Control | Bitbucket MCP Server | Repository hosting and pull-request review | S04, S07, S39 | OAuth2 | HTTP | Medium |
+| 4 | Code & Version Control | Filesystem MCP Server | Local repository and workspace file access | S01, S02, S05, S06, S09, S10, S11 | None | stdio | Critical |
+| 5 | Code & Version Control | ripgrep Code-Search MCP Server | Fast local code and pattern search across repos | S02, S05, S07, S08, S10 | None | stdio | High |
+| 6 | Code & Version Control | Sourcegraph MCP Server | Cross-repository code search and navigation | S01, S02, S08, S09, S10 | Token | HTTP | Medium |
+| 7 | Code & Version Control | npm Registry MCP Server | JavaScript package lookup and metadata | S02, S03, S10 | Token | HTTP | High |
+| 8 | Code & Version Control | PyPI Registry MCP Server | Python package lookup and metadata | S09, S10, S11, S12, S13 | Token | HTTP | High |
+| 9 | Code & Version Control | Docker Hub MCP Server | Container image registry browse and pull | S01, S05, S06, S13 | Service account | HTTP | High |
+| 10 | Code & Version Control | Sonatype Nexus MCP Server | Internal artifact repository and dependency proxy | S01, S04, S06, S08, S13 | Service account | HTTP | High |
+| 11 | Developer Productivity & CI/CD | GitHub Actions | Trigger and inspect delivery pipelines | S01, S02, S03, S04, S06, S07 | Token | HTTP/SSE | Critical |
+| 12 | Developer Productivity & CI/CD | GitHub | Browse repositories, issues, and pull requests | S01, S02, S03, S04, S05, S06, S07, S08 | Token | HTTP/SSE | Critical |
+| 13 | Developer Productivity & CI/CD | GitLab | Repository, pipeline, and merge request access | S04, S06, S07, S13 | Token | HTTP/SSE | High |
+| 14 | Developer Productivity & CI/CD | Jenkins | Run and monitor legacy build jobs | S06, S07, S13 | API key | HTTP | High |
+| 15 | Developer Productivity & CI/CD | CircleCI | Manage hosted CI pipelines and builds | S02, S03, S07 | API key | HTTP | Medium |
+| 16 | Developer Productivity & CI/CD | Argo CD | Drive GitOps deployments and sync status | S01, S06, S13 | Service account | HTTP/SSE | Critical |
+| 17 | Developer Productivity & CI/CD | Jira | Track work items, sprints, and backlogs | S01, S04, S06, S07, S08, S39 | OAuth2 | HTTP/SSE | Critical |
+| 18 | Developer Productivity & CI/CD | Linear | Manage issues, cycles, and roadmaps | S02, S03, S10, S24, S39 | API key | HTTP/SSE | High |
+| 19 | Developer Productivity & CI/CD | Shell / Terminal | Run local commands and build tooling | S01, S02, S03, S04, S05, S06, S08, S09, S10, S11, S13 | None | stdio | Critical |
+| 20 | Developer Productivity & CI/CD | Filesystem | Read and write project scaffolding and files | S01, S02, S03, S04, S05, S06, S07, S10, S13 | None | stdio | Critical |
+| 21 | Developer Productivity & CI/CD | Playwright | Automate end-to-end browser tests | S02, S07, S24, S25 | None | stdio | High |
+| 22 | Developer Productivity & CI/CD | Test Runner (Vitest/JUnit) | Execute unit and integration test suites | S01, S02, S03, S07, S13 | None | stdio | High |
+| 23 | Developer Productivity & CI/CD | Docker | Build images and run containers locally | S01, S05, S06, S07, S13 | None | stdio | High |
+| 24 | Developer Productivity & CI/CD | Kubernetes | Inspect and manage cluster workloads | S01, S06, S13 | Service account | HTTP/SSE | High |
+| 25 | Developer Productivity & CI/CD | Nx | Orchestrate monorepo tasks and generators | S01, S02, S03, S10 | None | stdio | Medium |
+| 26 | Developer Productivity & CI/CD | Confluence | Publish engineering docs and runbooks | S01, S06, S08, S39 | OAuth2 | HTTP/SSE | Medium |
+| 27 | Cloud & Infrastructure | AWS MCP Server | Provision and manage AWS cloud resources | S06, S10, S14 | API key | stdio | Critical |
+| 28 | Cloud & Infrastructure | Google Cloud MCP Server | Manage GCP services and projects | S06, S11, S14 | Service account | stdio | High |
+| 29 | Cloud & Infrastructure | Azure MCP Server | Operate Azure resources and subscriptions | S06, S12, S14 | OAuth2 | stdio | High |
+| 30 | Cloud & Infrastructure | Kubernetes MCP Server | Inspect and manage cluster workloads | S06, S08, S10, S13 | Token | stdio | Critical |
+| 31 | Cloud & Infrastructure | Docker MCP Server | Build and run container images | S06, S08, S09, S13 | None | stdio | High |
+| 32 | Cloud & Infrastructure | Terraform MCP Server | Plan and apply infrastructure as code | S06, S10, S14 | Token | stdio | Critical |
+| 33 | Cloud & Infrastructure | Helm MCP Server | Manage Kubernetes application releases | S06, S10, S13 | Token | stdio | High |
+| 34 | Cloud & Infrastructure | Cloudflare MCP Server | Manage DNS, CDN and edge services | S07, S11, S15 | API key | HTTP/SSE | Medium |
+| 35 | Cloud & Infrastructure | Vercel MCP Server | Deploy and manage frontend hosting | S03, S07, S15 | Token | HTTP | Medium |
+| 36 | Cloud & Infrastructure | Pulumi MCP Server | Provision cloud infrastructure as code | S06, S10, S14 | API key | stdio | Medium |
+| 37 | Data & Databases | PostgreSQL MCP Server | Query and manage relational application data | S01, S04, S05, S12 | Service account | stdio | Critical |
+| 38 | Data & Databases | MySQL MCP Server | Access legacy and departmental relational stores | S01, S05, S35 | Service account | stdio | High |
+| 39 | Data & Databases | MongoDB MCP Server | Work with document-oriented operational data | S03, S04, S05 | Token | stdio | High |
+| 40 | Data & Databases | Redis MCP Server | Inspect caches, queues, and session state | S01, S06, S10 | Token | stdio | High |
+| 41 | Data & Databases | Snowflake MCP Server | Query the enterprise data warehouse | S05, S12, S18, S35 | Service account | HTTP | Critical |
+| 42 | Data & Databases | BigQuery MCP Server | Analyze large-scale analytics datasets | S05, S12, S18 | Service account | HTTP | High |
+| 43 | Data & Databases | Apache Kafka MCP Server | Publish, consume, and inspect event streams | S05, S06, S11, S13 | mTLS | HTTP/SSE | Critical |
+| 44 | Data & Databases | dbt MCP Server | Trigger and inspect data transformation models | S05, S12, S13 | Token | stdio | High |
+| 45 | Data & Databases | Elasticsearch MCP Server | Search and analyze indexed logs and documents | S06, S08, S17 | API key | HTTP | High |
+| 46 | Data & Databases | Great Expectations MCP Server | Validate data quality and pipeline expectations | S05, S07, S13 | Service account | stdio | Medium |
+| 47 | Data & Databases | Data Catalog (DataHub) MCP Server | Discover and govern dataset metadata and lineage | S05, S12, S14 | OAuth2 | HTTP | Medium |
+| 48 | Observability & Monitoring | Sentry | Error tracking and release health | S02, S03, S06, S07, S10 | Token | HTTP/SSE | Critical |
+| 49 | Observability & Monitoring | Grafana | Dashboards and alerting across data sources | S01, S05, S06, S13 | OAuth2 | HTTP/SSE | Critical |
+| 50 | Observability & Monitoring | Prometheus | Metrics collection and querying | S01, S06, S13, S39 | Service account | HTTP | Critical |
+| 51 | Observability & Monitoring | Datadog | Unified logs, metrics, and APM | S01, S04, S06, S13, S39 | API key | HTTP/SSE | High |
+| 52 | Observability & Monitoring | New Relic | Application performance monitoring | S02, S04, S06, S13 | API key | HTTP/SSE | High |
+| 53 | Observability & Monitoring | OpenTelemetry Collector | Vendor-neutral traces, metrics, and logs pipeline | S01, S05, S06, S10, S13 | None | HTTP | Critical |
+| 54 | Observability & Monitoring | PagerDuty | Incident alerting and on-call escalation | S01, S06, S08, S39 | API key | HTTP/SSE | Critical |
+| 55 | Observability & Monitoring | Elastic APM | Log search and application tracing | S04, S05, S06, S08 | API key | HTTP/SSE | High |
+| 56 | Observability & Monitoring | Loki | Log aggregation and querying | S01, S05, S06, S13 | Service account | HTTP/SSE | High |
+| 57 | Observability & Monitoring | Jaeger | Distributed tracing for microservices | S01, S04, S06, S10 | None | HTTP | Medium |
+| 58 | Observability & Monitoring | Uptime Kuma | External uptime and endpoint monitoring | S06, S07, S39 | Token | HTTP | Medium |
+| 59 | Observability & Monitoring | Better Stack | Uptime monitoring and status pages | S06, S19, S38, S39 | API key | HTTP/SSE | Medium |
+| 60 | Collaboration & Project Management | Slack | Team chat, channels, and notifications | S01, S02, S06, S07, S10, S39 | OAuth2 | HTTP/SSE | Critical |
+| 61 | Collaboration & Project Management | Microsoft Teams | Enterprise chat, meetings, and channels | S04, S06, S12, S14, S39 | OAuth2 | HTTP/SSE | High |
+| 62 | Collaboration & Project Management | Notion | Docs, wikis, and lightweight project tracking | S03, S05, S06, S10, S13 | Token | HTTP/SSE | High |
+| 63 | Collaboration & Project Management | Confluence | Enterprise wiki and knowledge base | S01, S04, S06, S08, S14 | API key | HTTP | High |
+| 64 | Collaboration & Project Management | Jira | Issue tracking and agile project management | S01, S02, S04, S06, S39 | OAuth2 | HTTP/SSE | Critical |
+| 65 | Collaboration & Project Management | Miro | Collaborative whiteboards and diagrams | S03, S06, S09, S15 | OAuth2 | HTTP/SSE | Medium |
+| 66 | Collaboration & Project Management | Google Workspace | Docs, Sheets, Drive, and shared files | S02, S03, S05, S06, S13 | OAuth2 | HTTP/SSE | High |
+| 67 | Collaboration & Project Management | Zoom | Video meetings and meeting recordings | S02, S06, S07, S39 | OAuth2 | HTTP/SSE | Medium |
+| 68 | Collaboration & Project Management | Atlassian | Unified access to Jira and Confluence data | S01, S04, S06, S14 | OAuth2 | HTTP/SSE | High |
+| 69 | Collaboration & Project Management | Microsoft 365 | Calendar, mail, and document collaboration | S04, S06, S11, S12 | OAuth2 | HTTP/SSE | High |
+| 70 | Collaboration & Project Management | Linear | Issue tracking and product planning | S03, S05, S06, S10 | API key | HTTP/SSE | Medium |
+| 71 | Collaboration & Project Management | GitHub Projects | Project boards and task tracking on code | S02, S06, S08, S09, S13 | Token | HTTP/SSE | Medium |
+| 72 | Marketing, Ads & Analytics | Google Analytics | Web and product traffic analytics | S06, S10, S14, S21 | OAuth2 | HTTP/SSE | Critical |
+| 73 | Marketing, Ads & Analytics | Google Ads | Paid search campaign management | S14, S21, S22 | OAuth2 | HTTP/SSE | High |
+| 74 | Marketing, Ads & Analytics | Meta Ads | Social ad campaign management | S14, S21, S22 | OAuth2 | HTTP/SSE | High |
+| 75 | Marketing, Ads & Analytics | LinkedIn Ads | B2B ad campaign management | S14, S21, S23 | OAuth2 | HTTP/SSE | Medium |
+| 76 | Marketing, Ads & Analytics | HubSpot | CRM, contacts, and lifecycle marketing | S14, S19, S21 | API key | HTTP/SSE | Critical |
+| 77 | Marketing, Ads & Analytics | Mailchimp | Email campaign and audience management | S14, S21 | API key | HTTP/SSE | Medium |
+| 78 | Marketing, Ads & Analytics | Segment | Customer data pipeline and event routing | S04, S10, S14, S21 | API key | HTTP/SSE | Critical |
+| 79 | Marketing, Ads & Analytics | Amplitude | Product analytics and behavioral cohorts | S06, S10, S14, S21 | API key | HTTP/SSE | High |
+| 80 | Marketing, Ads & Analytics | Mixpanel | Product analytics and funnel analysis | S06, S10, S21 | API key | HTTP/SSE | Medium |
+| 81 | Marketing, Ads & Analytics | Braze | Cross-channel customer engagement | S14, S19, S21 | API key | HTTP/SSE | Medium |
+| 82 | Marketing, Ads & Analytics | AppsFlyer | Mobile attribution and marketing measurement | S10, S14, S21 | API key | HTTP/SSE | High |
+| 83 | Marketing, Ads & Analytics | Salesforce Marketing Cloud | Enterprise campaign and journey orchestration | S14, S19, S21 | OAuth2 | HTTP/SSE | High |
+| 84 | Social Media & Community | X (Twitter) API | Post, reply, and monitor brand mentions | S04, S06, S10 | OAuth2 | HTTP | High |
+| 85 | Social Media & Community | LinkedIn Marketing | Publish company updates and lead campaigns | S02, S04, S09 | OAuth2 | HTTP | High |
+| 86 | Social Media & Community | Instagram Graph / Threads | Schedule posts and track engagement metrics | S04, S10 | OAuth2 | HTTP | Medium |
+| 87 | Social Media & Community | TikTok Business | Upload short-form video and pull performance data | S10, S11 | OAuth2 | HTTP | Medium |
+| 88 | Social Media & Community | YouTube Data | Manage video uploads and comments | S05, S10 | OAuth2 | HTTP | High |
+| 89 | Social Media & Community | Reddit API | Community posting and thread monitoring | S06, S12 | OAuth2 | HTTP | Medium |
+| 90 | Social Media & Community | Discord Bot | Community server moderation and support triage | S06, S12 | Token | WebSocket | High |
+| 91 | Social Media & Community | Pinterest API | Publish pins and catalogue engagement | S04, S11 | OAuth2 | HTTP | Low |
+| 92 | Social Media & Community | Brandwatch | Social listening and sentiment analysis | S06, S09 | API key | HTTP | High |
+| 93 | Social Media & Community | Slack Community Bridge | Route community signals into internal channels | S06, S12 | Token | HTTP/SSE | Medium |
+| 94 | Content, CMS & SEO | WordPress | Editorial publishing and CMS workflows | S16, S19, S23, S38 | API key | HTTP/SSE | High |
+| 95 | Content, CMS & SEO | Contentful | Headless CMS content modelling and delivery | S02, S04, S16, S24 | OAuth2 | HTTP/SSE | High |
+| 96 | Content, CMS & SEO | Sanity | Structured content platform and real-time editing | S02, S16, S24, S26 | Token | HTTP/SSE | Medium |
+| 97 | Content, CMS & SEO | Webflow | Marketing site design, CMS, and publishing | S15, S16, S25, S28 | API key | HTTP | Medium |
+| 98 | Content, CMS & SEO | Ghost | Publishing and newsletter editorial platform | S16, S19, S23 | API key | HTTP/SSE | Medium |
+| 99 | Content, CMS & SEO | Drupal | Enterprise CMS with content governance | S16, S19, S38 | OAuth2 | HTTP/SSE | Low |
+| 100 | Content, CMS & SEO | Google Search Console | Search performance, indexing, and sitemaps | S15, S17, S18 | OAuth2 | HTTP/SSE | Critical |
+| 101 | Content, CMS & SEO | SEMrush | Keyword research, rank tracking, competitive SEO | S15, S17, S18 | API key | HTTP/SSE | High |
+| 102 | Content, CMS & SEO | Ahrefs | Backlink and organic search intelligence | S16, S17, S18 | API key | HTTP/SSE | High |
+| 103 | Content, CMS & SEO | Screaming Frog | Technical SEO crawling and site audits | S02, S07, S17 | Token | HTTP | Medium |
+| 104 | Content, CMS & SEO | Yoast SEO | On-page SEO analysis and metadata governance | S02, S16, S17 | API key | HTTP | Medium |
+| 105 | Content, CMS & SEO | Algolia | Site search and content discovery | S02, S04, S16 | API key | HTTP/SSE | High |
+| 106 | Design, Media & Creative | Figma | Read and generate design files and components | S03, S06, S09, S15, S21 | OAuth2 | HTTP/SSE | High |
+| 107 | Design, Media & Creative | Canva | Create and manage branded marketing assets | S06, S10, S15, S22 | OAuth2 | HTTP/SSE | Medium |
+| 108 | Design, Media & Creative | Adobe Firefly | Generate and edit imagery and design assets | S09, S15, S21, S22 | API key | HTTP | Medium |
+| 109 | Design, Media & Creative | Miro | Collaborative whiteboards and visual planning | S03, S06, S09, S15 | OAuth2 | HTTP/SSE | Medium |
+| 110 | Design, Media & Creative | Cloudinary | Store, transform, and deliver media assets | S09, S11, S15, S21, S24 | API key | HTTP | High |
+| 111 | Design, Media & Creative | Mux | Ingest, transcode, and stream video | S09, S11, S15, S24 | Token | HTTP | High |
+| 112 | Design, Media & Creative | Vimeo | Host, manage, and share video content | S06, S15, S22 | OAuth2 | HTTP/SSE | Medium |
+| 113 | Design, Media & Creative | YouTube Studio | Manage video uploads, metadata, and analytics | S10, S15, S22 | OAuth2 | HTTP/SSE | Medium |
+| 114 | Design, Media & Creative | ElevenLabs | Generate synthetic speech and voice audio | S10, S15, S21, S24 | API key | HTTP | High |
+| 115 | Design, Media & Creative | OpenAI Whisper | Transcribe and translate audio to text | S09, S10, S11, S24 | API key | HTTP | High |
+| 116 | Design, Media & Creative | OpenAI TTS | Convert text to natural speech audio | S10, S15, S21 | API key | HTTP | Medium |
+| 117 | Design, Media & Creative | Descript | Edit audio and video via transcript workflows | S15, S22, S24 | OAuth2 | HTTP/SSE | Low |
+| 118 | Design, Media & Creative | Shutterstock | Source licensed stock imagery and footage | S15, S21, S22 | API key | HTTP | Low |
+| 119 | Design, Media & Creative | Google Drive | Store and share creative source files | S03, S06, S09, S15 | OAuth2 | HTTP/SSE | High |
+| 120 | AI, LLM & Vector | OpenAI MCP Server | Access frontier chat, reasoning, and embedding models | S09, S10, S11, S12, S13, S14 | API key | HTTP/SSE | Critical |
+| 121 | AI, LLM & Vector | Anthropic Claude MCP Server | Access Claude models for agentic and long-context workloads | S10, S09, S14, S16 | API key | HTTP/SSE | Critical |
+| 122 | AI, LLM & Vector | Google Gemini MCP Server | Access multimodal generation and reasoning models | S09, S10, S12, S24, S26 | API key | HTTP/SSE | High |
+| 123 | AI, LLM & Vector | Hugging Face MCP Server | Discover, download, and serve open models and datasets | S09, S11, S13 | Token | HTTP | High |
+| 124 | AI, LLM & Vector | OpenHands Agent-Server MCP | Run and orchestrate autonomous coding and task agents | S01, S06, S07, S10 | Token | HTTP/SSE | High |
+| 125 | AI, LLM & Vector | Pinecone MCP Server | Store and query managed vector embeddings | S10, S11, S12, S17 | API key | HTTP | High |
+| 126 | AI, LLM & Vector | Weaviate MCP Server | Run semantic and hybrid search over vectorized content | S10, S16, S17, S21 | API key | HTTP | Medium |
+| 127 | AI, LLM & Vector | Qdrant MCP Server | Serve self-hosted vector search for retrieval pipelines | S10, S11, S13 | API key | HTTP | High |
+| 128 | AI, LLM & Vector | pgvector MCP Server | Add vector similarity search to PostgreSQL data | S05, S10, S12 | Service account | stdio | High |
+| 129 | AI, LLM & Vector | LangSmith MCP Server | Trace, evaluate, and monitor LLM applications | S09, S10, S14 | API key | HTTP | High |
+| 130 | AI, LLM & Vector | Weights & Biases MCP Server | Track experiments, metrics, and model artifacts | S09, S11, S13 | API key | HTTP | High |
+| 131 | AI, LLM & Vector | MLflow MCP Server | Register, version, and serve models across the lifecycle | S11, S13 | Service account | HTTP | Medium |
+| 132 | Security, Identity & Compliance | Snyk | Dependency and container vulnerability scanning | S01, S02, S04, S06, S07, S13 | Token | HTTP/SSE | Critical |
+| 133 | Security, Identity & Compliance | Semgrep | Static analysis for custom code patterns | S01, S02, S03, S07, S10 | Token | HTTP/SSE | High |
+| 134 | Security, Identity & Compliance | Trivy | Scan images, filesystems, and IaC for flaws | S01, S05, S06, S13 | None | stdio | Critical |
+| 135 | Security, Identity & Compliance | Grype | Vulnerability scanning of container artifacts | S01, S05, S06, S13 | None | stdio | High |
+| 136 | Security, Identity & Compliance | HashiCorp Vault | Dynamic secrets and credential brokering | S01, S05, S06, S07, S13 | Token | HTTP/SSE | Critical |
+| 137 | Security, Identity & Compliance | 1Password | Manage developer secrets and service credentials | S02, S03, S06, S08, S10 | Service account | HTTP/SSE | High |
+| 138 | Security, Identity & Compliance | Okta | Workforce identity, SSO, and access policies | S01, S06, S08, S39 | OAuth2 | HTTP/SSE | Critical |
+| 139 | Security, Identity & Compliance | Auth0 | Customer authentication and authorization | S02, S03, S04, S07 | OAuth2 | HTTP/SSE | High |
+| 140 | Security, Identity & Compliance | Snyk IaC | Detect misconfigurations in infrastructure code | S01, S05, S06, S13 | Token | HTTP/SSE | High |
+| 141 | Security, Identity & Compliance | OWASP ZAP | Dynamic application security testing | S02, S03, S07, S24 | API key | HTTP/SSE | Medium |
+| 142 | Security, Identity & Compliance | Vanta | Continuous compliance and control monitoring | S01, S06, S08, S39 | OAuth2 | HTTP/SSE | High |
+| 143 | Security, Identity & Compliance | HashiCorp Boundary | Identity-based access to privileged targets | S01, S05, S06, S13 | mTLS | HTTP | Medium |
+| 144 | Finance, HR & Legal Ops | Stripe | Billing, subscriptions, and payment processing | S07, S16, S22, S30 | API key | HTTP/SSE | Critical |
+| 145 | Finance, HR & Legal Ops | NetSuite | General ledger, accounting, and financial reporting | S16, S22, S35 | OAuth2 | HTTP | Critical |
+| 146 | Finance, HR & Legal Ops | QuickBooks | Bookkeeping for small entities and subsidiaries | S16, S35 | OAuth2 | HTTP/SSE | High |
+| 147 | Finance, HR & Legal Ops | Workday | HR, headcount, and finance master data | S12, S16, S24 | Service account | HTTP | Critical |
+| 148 | Finance, HR & Legal Ops | BambooHR | HR records, time off, and employee lifecycle | S24, S26 | API key | HTTP | High |
+| 149 | Finance, HR & Legal Ops | Gusto | Payroll processing and benefits administration | S24, S26 | OAuth2 | HTTP/SSE | High |
+| 150 | Finance, HR & Legal Ops | DocuSign | E-signature and envelope workflow automation | S22, S24, S27 | OAuth2 | HTTP/SSE | High |
+| 151 | Finance, HR & Legal Ops | Ironclad | Contract lifecycle management and negotiation | S22, S27 | API key | HTTP | High |
+| 152 | Finance, HR & Legal Ops | Greenhouse | Recruiting, requisitions, and hiring pipeline | S24, S26 | API key | HTTP/SSE | Medium |
+| 153 | Finance, HR & Legal Ops | Avalara | Sales tax calculation and compliance | S16, S22 | API key | HTTP | Medium |
+| 154 | Finance, HR & Legal Ops | Bill.com | Accounts payable, invoicing, and payments | S16, S35 | OAuth2 | HTTP/SSE | High |
+| 155 | Finance, HR & Legal Ops | Expensify | Expense capture, approval, and reimbursement | S16, S24 | Token | HTTP/SSE | Medium |
+| 156 | Finance, HR & Legal Ops | Coupa | Procurement, spend, and vendor management | S16, S35 | OAuth2 | HTTP | Medium |
+| 157 | Customer Support & CRM | Zendesk | Support ticketing and help center | S01, S04, S38, S39 | OAuth2 | HTTP/SSE | Critical |
+| 158 | Customer Support & CRM | Intercom | Live chat and customer messaging | S02, S15, S38 | OAuth2 | HTTP/SSE | High |
+| 159 | Customer Support & CRM | Salesforce | Enterprise CRM and sales pipeline | S12, S37, S38 | OAuth2 | HTTP/SSE | Critical |
+| 160 | Customer Support & CRM | HubSpot CRM | Marketing, sales, and service CRM | S15, S16, S37, S38 | OAuth2 | HTTP/SSE | High |
+| 161 | Customer Support & CRM | Freshdesk | Ticketing and multi-channel support | S38, S39 | API key | HTTP | Medium |
+| 162 | Customer Support & CRM | Pylon | B2B support inbox and account context | S37, S38 | API key | HTTP/SSE | Medium |
+| 163 | Customer Support & CRM | Canny | Feature requests and product feedback | S24, S38, S39 | API key | HTTP | Medium |
+| 164 | Customer Support & CRM | Gainsight | Customer success and health scoring | S12, S37, S38 | OAuth2 | HTTP/SSE | High |
+| 165 | Customer Support & CRM | Zoho Desk | Ticketing and customer service workflows | S38, S39 | OAuth2 | HTTP | Low |
+| 166 | Customer Support & CRM | ServiceNow | Enterprise service management and ITSM | S01, S06, S38, S39 | OAuth2 | HTTP/SSE | High |
+| 167 | Customer Support & CRM | Confluence KB | Knowledge base articles for support agents | S01, S04, S38 | API key | HTTP | High |
+| 168 | Customer Support & CRM | Front | Shared inbox and team email support | S37, S38 | API key | HTTP/SSE | Medium |
+| 169 | Gateway & Aggregation | FastMCP Aggregator | Mount/proxy many upstream servers behind one endpoint | All (S01–S39) | Token | HTTP | Critical |
+| 170 | Gateway & Aggregation | MCPProxy | Local proxy/federation with tool filtering and logging | S01, S06, S08, S10 | Token | stdio, HTTP | High |
+| 171 | Gateway & Aggregation | Docker MCP Gateway | Container-based gateway with secrets and RBAC | S01, S06, S08, S13 | Service account | HTTP | High |
+| 172 | Gateway & Aggregation | IBM ContextForge MCP Gateway | Federated gateway, virtual servers, policy | S01, S06, S08 | OAuth2 | HTTP | Medium |
+| 173 | Gateway & Aggregation | MCP Registry Server | Discover and version MCP servers internally | S01, S06, S07, S13 | Token | HTTP | Medium |
+| 174 | Gateway & Aggregation | OpenHands Agent-Server (as MCP) | Expose a sandbox's tools as an MCP endpoint | S01, S06, S10, S13 | Session key | HTTP | High |
+| 175 | Gateway & Aggregation | Gateway Auth Broker | Mint scoped, short-lived per-sandbox gateway tokens | S01, S08, S10 | OAuth2 | HTTP | Critical |
+| 176 | Gateway & Aggregation | Tool-Allow-List Policy Server | Enforce read/write/admin tool classes per tenant | S01, S08, S14 | Service account | HTTP | High |
+| 177 | Gateway & Aggregation | MCP Audit Sink | Collect per-call audit records from the gateway | S01, S08, S36 | Token | HTTP | High |
+| 178 | Gateway & Aggregation | MCP Health/Metrics Exporter | Export gateway and upstream health to monitoring | S01, S05, S06 | Token | HTTP | Medium |
+

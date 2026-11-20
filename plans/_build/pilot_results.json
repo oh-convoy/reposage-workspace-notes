@@ -1,0 +1,67 @@
+{
+  "units": 2,
+  "ok": 0,
+  "failed": 2,
+  "wall_clock_seconds": 260.1,
+  "concurrency": 2,
+  "model": "aihubmix/claude-opus-5",
+  "kind": "persona",
+  "total_attempts": 4,
+  "retries": 2,
+  "unit_seconds_sum": 514.2,
+  "unit_seconds_avg": 257.1,
+  "unit_seconds_min": 254.1,
+  "unit_seconds_max": 260.1,
+  "bytes_total": 0,
+  "bytes_avg": 0,
+  "tokens": {
+    "prompt_tokens": 45584,
+    "completion_tokens": 338,
+    "cache_read_tokens": 44160,
+    "reasoning_tokens": 20
+  },
+  "throughput_docs_per_min": 0.46,
+  "speedup_vs_serial": 1.98,
+  "per_unit": [
+    {
+      "id": "S01",
+      "ok": false,
+      "attempts": 2,
+      "wall_s": 260.1,
+      "bytes": 0,
+      "tokens": {
+        "prompt_tokens": 22795,
+        "completion_tokens": 207,
+        "cache_read_tokens": 22144,
+        "reasoning_tokens": 12
+      },
+      "models": [
+        "aihubmix/claude-opus-5",
+        "openhands/deepseek-v4.1-flash"
+      ],
+      "issues": [
+        "file missing"
+      ]
+    },
+    {
+      "id": "S02",
+      "ok": false,
+      "attempts": 2,
+      "wall_s": 254.1,
+      "bytes": 0,
+      "tokens": {
+        "prompt_tokens": 22789,
+        "completion_tokens": 131,
+        "cache_read_tokens": 22016,
+        "reasoning_tokens": 8
+      },
+      "models": [
+        "aihubmix/claude-opus-5",
+        "openhands/deepseek-v4.1-flash"
+      ],
+      "issues": [
+        "file missing"
+      ]
+    }
+  ]
+}

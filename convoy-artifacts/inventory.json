@@ -1,0 +1,780 @@
+{
+  "with_remote": [
+    {
+      "path": "/workspace/github/organization/_ai-context",
+      "rel": "github/organization/_ai-context",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-ai-context/_ai-context.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/Convoy-OpenHands-Orchestration",
+      "rel": "github/organization/oh-convoy/Convoy-OpenHands-Orchestration",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/Convoy-OpenHands-Orchestration.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/_scripts",
+      "rel": "github/organization/oh-convoy/_scripts",
+      "branch": "main",
+      "dirty_files": 1,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/platform-scripts.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/all-hands-dev",
+      "rel": "github/organization/oh-convoy/all-hands-dev",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/all-hands-dev.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/convoy-docs-site",
+      "rel": "github/organization/oh-convoy/convoy-docs-site",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/convoy-docs-site.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/convoy-quality-audit",
+      "rel": "github/organization/oh-convoy/convoy-quality-audit",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/convoy-quality-audit.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/hellofleet-experiment",
+      "rel": "github/organization/oh-convoy/hellofleet-experiment",
+      "branch": "chore/hello-fleet-experiment",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/hellofleet-experiment.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/oc-convoy-docs-poc",
+      "rel": "github/organization/oh-convoy/oc-convoy-docs-poc",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/oc-convoy-docs-poc.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/oc-convoy-docs-v1",
+      "rel": "github/organization/oh-convoy/oc-convoy-docs-v1",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/oc-convoy-docs-v1.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/oc-convoy-v0",
+      "rel": "github/organization/oh-convoy/oc-convoy-v0",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/oc-convoy-v0.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/oc-convoy-v1",
+      "rel": "github/organization/oh-convoy/oc-convoy-v1",
+      "branch": "agent/cbhpzwunxavybfjq",
+      "dirty_files": 15,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/oc-convoy-v1.git"
+    },
+    {
+      "path": "/workspace/github/organization/oh-convoy/openhands",
+      "rel": "github/organization/oh-convoy/openhands",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/oh-convoy/openhands.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-gad-reveng-01/sandbox-01-RepoSage_docs-site",
+      "rel": "github/organization/org-gad-reveng-01/sandbox-01-RepoSage_docs-site",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-gad-reveng-01/sandbox-01-RepoSage_docs-site.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea",
+      "rel": "github/organization/org-morluto/rea",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-cli-registry",
+      "rel": "github/organization/org-morluto/rea-agent-cli-registry",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-cli-registry.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-cortex-tools",
+      "rel": "github/organization/org-morluto/rea-agent-cortex-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-cortex-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-directory-domain-skill",
+      "rel": "github/organization/org-morluto/rea-agent-directory-domain-skill",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-directory-domain-skill.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-mcp-ecosystem",
+      "rel": "github/organization/org-morluto/rea-agent-mcp-ecosystem",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-mcp-ecosystem.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-skill-tools-cn",
+      "rel": "github/organization/org-morluto/rea-agent-skill-tools-cn",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-skill-tools-cn.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-skills-es",
+      "rel": "github/organization/org-morluto/rea-agent-skills-es",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-skills-es.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-skills-jacky",
+      "rel": "github/organization/org-morluto/rea-agent-skills-jacky",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-skills-jacky.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-agent-skills-libukai",
+      "rel": "github/organization/org-morluto/rea-agent-skills-libukai",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-agent-skills-libukai.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-agent-tools",
+      "rel": "github/organization/org-morluto/rea-ai-agent-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-agent-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-anytime-mcp",
+      "rel": "github/organization/org-morluto/rea-ai-anytime-mcp",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-anytime-mcp.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-cli",
+      "rel": "github/organization/org-morluto/rea-ai-cli",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-cli.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-coding-tools",
+      "rel": "github/organization/org-morluto/rea-ai-coding-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-coding-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-devtools",
+      "rel": "github/organization/org-morluto/rea-ai-devtools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-devtools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-driven-development-tools",
+      "rel": "github/organization/org-morluto/rea-ai-driven-development-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-driven-development-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-pentesting",
+      "rel": "github/organization/org-morluto/rea-ai-pentesting",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-pentesting.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ai-redteam",
+      "rel": "github/organization/org-morluto/rea-ai-redteam",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ai-redteam.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-all-defense",
+      "rel": "github/organization/org-morluto/rea-all-defense",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-all-defense.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-analysis",
+      "rel": "github/organization/org-morluto/rea-analysis",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto-analysis/rea-analysis.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-android-ai-reversing-list",
+      "rel": "github/organization/org-morluto/rea-android-ai-reversing-list",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-android-ai-reversing-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-apple-knowledge-list",
+      "rel": "github/organization/org-morluto/rea-apple-knowledge-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-apple-knowledge-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-apple-security",
+      "rel": "github/organization/org-morluto/rea-apple-security",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-apple-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-apple-security-list",
+      "rel": "github/organization/org-morluto/rea-apple-security-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-apple-security-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-cybersecurity-agentic-ai",
+      "rel": "github/organization/org-morluto/rea-awesome-cybersecurity-agentic-ai",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-cybersecurity-agentic-ai.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-ghidra",
+      "rel": "github/organization/org-morluto/rea-awesome-ghidra",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-ghidra.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-llm-re",
+      "rel": "github/organization/org-morluto/rea-awesome-llm-re",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-llm-re.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-mcp-list",
+      "rel": "github/organization/org-morluto/rea-awesome-mcp-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-mcp-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-mcp-servers",
+      "rel": "github/organization/org-morluto/rea-awesome-mcp-servers",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-mcp-servers.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-mcp-zh",
+      "rel": "github/organization/org-morluto/rea-awesome-mcp-zh",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-mcp-zh.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-awesome-reverse-engineering",
+      "rel": "github/organization/org-morluto/rea-awesome-reverse-engineering",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-awesome-reverse-engineering.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-best-mcp-servers",
+      "rel": "github/organization/org-morluto/rea-best-mcp-servers",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-best-mcp-servers.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-chinese-skills-catalog",
+      "rel": "github/organization/org-morluto/rea-chinese-skills-catalog",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-chinese-skills-catalog.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-claude-skill-bindu",
+      "rel": "github/organization/org-morluto/rea-claude-skill-bindu",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-claude-skill-bindu.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-claude-skills-behi",
+      "rel": "github/organization/org-morluto/rea-claude-skills-behi",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-claude-skills-behi.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-claude-skills-zh",
+      "rel": "github/organization/org-morluto/rea-claude-skills-zh",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-claude-skills-zh.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-codex-cli",
+      "rel": "github/organization/org-morluto/rea-codex-cli",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-codex-cli.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-codex-guide-resource-cn",
+      "rel": "github/organization/org-morluto/rea-codex-guide-resource-cn",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-codex-guide-resource-cn.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-codex-skills-rogge",
+      "rel": "github/organization/org-morluto/rea-codex-skills-rogge",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-codex-skills-rogge.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-concise-skills-bilingual",
+      "rel": "github/organization/org-morluto/rea-concise-skills-bilingual",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-concise-skills-bilingual.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-ctf-resources",
+      "rel": "github/organization/org-morluto/rea-ctf-resources",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-ctf-resources.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-cursor-skill-list",
+      "rel": "github/organization/org-morluto/rea-cursor-skill-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-cursor-skill-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-cybersecurity-mcp-tools",
+      "rel": "github/organization/org-morluto/rea-cybersecurity-mcp-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-cybersecurity-mcp-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-darbra-ai-reverse",
+      "rel": "github/organization/org-morluto/rea-darbra-ai-reverse",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-darbra-ai-reverse.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-dev-resources",
+      "rel": "github/organization/org-morluto/rea-dev-resources",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-dev-resources.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-embedded-security",
+      "rel": "github/organization/org-morluto/rea-embedded-security",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-embedded-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-engineering-ai",
+      "rel": "github/organization/org-morluto/rea-engineering-ai",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-engineering-ai.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-eze-agent-skills",
+      "rel": "github/organization/org-morluto/rea-eze-agent-skills",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-eze-agent-skills.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-genai-cyberhub",
+      "rel": "github/organization/org-morluto/rea-genai-cyberhub",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-genai-cyberhub.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-gmh-ai-security",
+      "rel": "github/organization/org-morluto/rea-gmh-ai-security",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-gmh-ai-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-gmh-game-security",
+      "rel": "github/organization/org-morluto/rea-gmh-game-security",
+      "branch": "Branch_20220821",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-gmh-game-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-gmh-skills",
+      "rel": "github/organization/org-morluto/rea-gmh-skills",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-gmh-skills.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-gpt-security",
+      "rel": "github/organization/org-morluto/rea-gpt-security",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-gpt-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-grimoire-docs-source",
+      "rel": "github/organization/org-morluto/rea-grimoire-docs-source",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-grimoire-docs-source.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-guia-assembly-br",
+      "rel": "github/organization/org-morluto/rea-guia-assembly-br",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-guia-assembly-br.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-h4cker-reversing-resources",
+      "rel": "github/organization/org-morluto/rea-h4cker-reversing-resources",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-h4cker-reversing-resources.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-habito-mcp-list",
+      "rel": "github/organization/org-morluto/rea-habito-mcp-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-habito-mcp-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-hacking-resources",
+      "rel": "github/organization/org-morluto/rea-hacking-resources",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-hacking-resources.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-hacking-with-ai",
+      "rel": "github/organization/org-morluto/rea-hacking-with-ai",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-hacking-with-ai.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-heyclaude-source-skill",
+      "rel": "github/organization/org-morluto/rea-heyclaude-source-skill",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-heyclaude-source-skill.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-hook-re-mcp",
+      "rel": "github/organization/org-morluto/rea-hook-re-mcp",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-hook-re-mcp.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-jquery-claude-code-list",
+      "rel": "github/organization/org-morluto/rea-jquery-claude-code-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-jquery-claude-code-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-kilo-mcp-marketplace",
+      "rel": "github/organization/org-morluto/rea-kilo-mcp-marketplace",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-kilo-mcp-marketplace.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-korean-agent-skill-directory",
+      "rel": "github/organization/org-morluto/rea-korean-agent-skill-directory",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-korean-agent-skill-directory.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-local-investigation-skill",
+      "rel": "github/organization/org-morluto/rea-local-investigation-skill",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-local-investigation-skill.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-mcp-open",
+      "rel": "github/organization/org-morluto/rea-mcp-open",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-mcp-open.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-offensive-ai-resources",
+      "rel": "github/organization/org-morluto/rea-offensive-ai-resources",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-offensive-ai-resources.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-offensive-mcp-tools",
+      "rel": "github/organization/org-morluto/rea-offensive-mcp-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-offensive-mcp-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-otto-ai-security",
+      "rel": "github/organization/org-morluto/rea-otto-ai-security",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-otto-ai-security.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-redteam-reversing-tools",
+      "rel": "github/organization/org-morluto/rea-redteam-reversing-tools",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-redteam-reversing-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-secskills",
+      "rel": "github/organization/org-morluto/rea-secskills",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-secskills.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-security-agent-analysis-tools",
+      "rel": "github/organization/org-morluto/rea-security-agent-analysis-tools",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-security-agent-analysis-tools.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-security-research-catalog",
+      "rel": "github/organization/org-morluto/rea-security-research-catalog",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-security-research-catalog.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-security-skills-list",
+      "rel": "github/organization/org-morluto/rea-security-skills-list",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-security-skills-list.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-sixth-gen-tools-de",
+      "rel": "github/organization/org-morluto/rea-sixth-gen-tools-de",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-sixth-gen-tools-de.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-skill-agentpostmortem",
+      "rel": "github/organization/org-morluto/rea-skill-agentpostmortem",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-skill-agentpostmortem.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-skill-list-traditional-cn",
+      "rel": "github/organization/org-morluto/rea-skill-list-traditional-cn",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-skill-list-traditional-cn.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-skills-zh",
+      "rel": "github/organization/org-morluto/rea-skills-zh",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-skills-zh.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-skills4redteam",
+      "rel": "github/organization/org-morluto/rea-skills4redteam",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-skills4redteam.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-software-reversing-id",
+      "rel": "github/organization/org-morluto/rea-software-reversing-id",
+      "branch": "master",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-software-reversing-id.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-third-party-skills-cn",
+      "rel": "github/organization/org-morluto/rea-third-party-skills-cn",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-third-party-skills-cn.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-web-reversing",
+      "rel": "github/organization/org-morluto/rea-web-reversing",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-web-reversing.git"
+    },
+    {
+      "path": "/workspace/github/organization/org-morluto/rea-wunder-mcp",
+      "rel": "github/organization/org-morluto/rea-wunder-mcp",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": 0,
+      "remote": "https://github.com/org-morluto/rea-wunder-mcp.git"
+    }
+  ],
+  "without_remote": [
+    {
+      "path": "/workspace/github/organization/oh-convoy/_analysis",
+      "rel": "github/organization/oh-convoy/_analysis",
+      "branch": "main",
+      "dirty_files": 0,
+      "unpushed": null
+    },
+    {
+      "path": "/workspace/project",
+      "rel": "project",
+      "branch": "HEAD",
+      "dirty_files": 7,
+      "unpushed": null
+    }
+  ]
+}
